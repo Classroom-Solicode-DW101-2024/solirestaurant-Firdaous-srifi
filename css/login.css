@@ -1,0 +1,98 @@
+/* Base styles and reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Form container */
+form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label styling */
+label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+/* Input field styling */
+input[type="tel"] {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s;
+}
+
+input[type="tel"]:focus {
+    border-color: #e67e22;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(230, 126, 34, 0.2);
+}
+
+/* Button styling */
+button {
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    padding: 12px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: #d35400;
+}
+
+/* Form heading - add this to your HTML if desired */
+.form-title {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2c3e50;
+    font-size: 24px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    form {
+        padding: 20px;
+    }
+    
+    .form-title {
+        font-size: 20px;
+    }
+}
+
+/* Optional: Error messages styling */
+.error-message {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
