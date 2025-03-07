@@ -60,7 +60,7 @@ if(isset($_POST['search'])){
     <link rel="stylesheet" href="css/home.css?v=1">
     <!--v=1 update la page-->    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">  
-    <link rel="stylesheet" href="css/home.css?v=1">
+    <link rel="stylesheet" href="css/style.css?v=1">
     <link rel="stylesheet" href="css/responsive.css?v=1">
 
 
@@ -74,7 +74,7 @@ if(isset($_POST['search'])){
         <nav class="navbar navbar-expand-lg custom_nav-container">
           <a class="navbar-brand">
             <span>
-            squiddo
+              Squiddo
             </span>
           </a>
           <div class="" id="">

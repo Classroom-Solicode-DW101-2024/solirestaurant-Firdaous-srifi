@@ -2,7 +2,7 @@
 session_start();
 //** connectage dyal database**/
 $host ='localhost';
-$dbname ='solirestaurant';
+$dbname ='squiddo';
 $username ='root';
 $password ='';
 try {
